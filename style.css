@@ -1,0 +1,28 @@
+/* reset */
+
+/**font **/
+@font-face {
+  font-family: "magic_retroregular";
+  src: url("fonts/magic_retro-webfont.woff2") format("woff2"), url("fonts/magic_retro-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "bright_demoregular";
+  src: url("fonts/bright_demo-webfont.woff2") format("woff2"), url("fonts/bright_demo-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*font-family: 'Montserrat Alternates', sans-serif;*/
+
+/*generel*/
+body {
+  font-family: "bright_demoregular";
+  font-size: 5cqw;
+}
+
+p {
+  font-family: "Montserrat Alternates", sans-serif;
+}
