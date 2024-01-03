@@ -34,3 +34,58 @@ p {
 }
 
 /*Forside*/
+
+.container img {
+  aspect-ratio: 1100/950;
+  width: 1280px;
+  height: 941px;
+}
+
+.container {
+  display: grid;
+  place-items: center;
+}
+
+img,
+h1 {
+  grid-area: 1/1;
+}
+
+/* timeline */
+.timeline {
+  margin: 0 auto;
+  max-width: 750px;
+  padding: 25px;
+  display: grid;
+  grid-template-columns: 1fr 3px 1fr;
+  font-family: "Fira Sans", sans-serif;
+  color: #2927ce;
+}
+
+.timeline_component {
+  margin: 0 20px 20px 20px;
+}
+
+.timeline_bar,
+.timeline_point {
+  color: #2927ce;
+}
+.timeline_bar {
+  position: relative;
+  background: #2927ce;
+}
+
+.timeline__date .right {
+  text-align: right;
+}
+
+.timeline_point {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 15px;
+  height: 15px;
+  background: #2927ce;
+  border-radius: 50%;
+}
