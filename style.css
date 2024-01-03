@@ -19,10 +19,18 @@
 
 /*generel*/
 body {
+  color: #f9f6ee;
+}
+
+h1 {
   font-family: "bright_demoregular";
   font-size: 5cqw;
+  color: #2927ce;
 }
 
 p {
   font-family: "Montserrat Alternates", sans-serif;
+  color: #54544b;
 }
+
+/*Forside*/
