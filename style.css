@@ -47,6 +47,13 @@ h1 {
 h2 {
   font-family: "Montserrat Alternates", sans-serif;
   color: #4a4a44;
+  font-weight: bolder;
+  padding-bottom: 1em;
+}
+
+h3 {
+  font-family: "Montserrat Alternates", sans-serif;
+  color: #4a4a44;
   font-weight: bold;
   padding-bottom: 1em;
 }
@@ -278,4 +285,38 @@ h1 {
   background-color: rgba(255, 246, 246, 0.46);
   border-radius: 10px;
   padding: 0.2em;
+}
+
+/** uxui **/
+
+.ux_container {
+  padding: 100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  overflow-x: scroll;
+}
+
+.ux_box {
+  /* scroll-snap-align: start;
+  width: 1000px;
+  height: 500px; */
+  width: 360px;
+  padding: 0 50px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 30px 0 30px;
+}
+
+.ux_box .text_box {
+  margin: 0 30px 0 30px;
+  width: 400px;
+  background-color: #e7d8a2;
+}
+.ux_box img {
+  width: 100%;
 }
