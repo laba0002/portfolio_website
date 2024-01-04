@@ -35,9 +35,10 @@ body {
 
 h1 {
   font-family: "bright_demoregular";
-  font-size: 5cqw;
+  font-size: 10cqw;
   color: #2927ce;
   text-align: center;
+  margin-top: 50px;
 }
 
 p,
@@ -143,7 +144,8 @@ header .nav-bar .nav-menu a {
 .forsidegrafik {
   background-image: url(/billeder/forsidegrafik.svg);
   background-size: cover;
-  height: 1000px;
+  max-height: max-content;
+  z-index: -100;
 }
 
 /* #forside_grafik_container {
@@ -203,7 +205,7 @@ h1 {
   background: #2927ce;
 }
 
-.timeline__date .right {
+.timeline_date .right {
   text-align: right;
 }
 
