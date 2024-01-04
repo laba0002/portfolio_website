@@ -1,5 +1,16 @@
 /* reset */
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 /**font **/
 @font-face {
   font-family: "magic_retroregular";
@@ -18,15 +29,15 @@
 /*font-family: 'Montserrat Alternates', sans-serif;*/
 
 /*generel*/
-header,
 body {
-  color: #f9f6ee;
+  background-color: #f9f6ee;
 }
 
 h1 {
   font-family: "bright_demoregular";
   font-size: 5cqw;
   color: #2927ce;
+  text-align: center;
 }
 
 p,
@@ -129,7 +140,30 @@ header .nav-bar .nav-menu a {
 
 /*Forside*/
 
-.container img {
+.forsidegrafik {
+  background-image: url(/billeder/forsidegrafik.svg);
+  background-size: cover;
+  height: 1000px;
+}
+
+/* #forside_grafik_container {
+  position: absolute;
+  width: 100%;
+  aspect-ratio: 1100/950;
+  cursor: pointer;
+}
+
+#forside_grafik_container {
+  width: 100%;
+  height: 100%;
+  background-image: url(/billeder/forsidegrafik.svg);
+  background-size: cover;
+  z-index: -100;
+  top: -11%;
+  left: 5%;
+} */
+
+/* .container img {
   aspect-ratio: 1100/950;
   width: 1280px;
   height: 941px;
@@ -143,7 +177,7 @@ header .nav-bar .nav-menu a {
 img,
 h1 {
   grid-area: 1/1;
-}
+} */
 
 /* timeline */
 .timeline {
