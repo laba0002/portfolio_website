@@ -63,15 +63,15 @@ li a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 60px;
+  gap: 90px;
 }
 
 .nav-link {
   transition: 0.7s ease;
 }
 
-/* .nav-link:hover {
-  color: #fadec0;
+/* .nav-bar .nav-link:hover {
+  color: #fffcf2;
 } */
 .hamburger {
   display: none;
@@ -96,6 +96,7 @@ header .nav-bar .nav-menu a {
 @media (max-width: 780px) {
   .hamburger {
     display: block;
+    z-index: 11;
   }
 
   .hamburger.active .bar:nth-child(2) {
@@ -118,6 +119,7 @@ header .nav-bar .nav-menu a {
     width: 100%;
     text-align: center;
     transition: 0.3s;
+    z-index: 10;
   }
 
   .nav-item {
@@ -125,6 +127,7 @@ header .nav-bar .nav-menu a {
   }
   .nav-menu.active {
     left: 0;
+    z-index: 10;
   }
   header .nav-bar .nav-menu a {
     font-family: "Montserrat Alternates", sans-serif;
@@ -136,9 +139,12 @@ header .nav-bar .nav-menu a {
     justify-content: flex-end;
   }
 
-  /* .nav-menu a:hover {
-    color: #f5b9ba;
-  } */
+  .nav-menu a:hover {
+    color: #fffcf2;
+  }
+}
+.nav-menu a:hover {
+  color: #fffcf2;
 }
 .nav-menu {
   list-style-type: none;
