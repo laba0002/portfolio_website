@@ -31,6 +31,8 @@ img {
 /*generel*/
 body {
   background-color: #f9f6ee;
+  max-width: 1000px;
+  margin: auto;
 }
 
 h1 {
