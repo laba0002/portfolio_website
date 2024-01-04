@@ -37,10 +37,18 @@ body {
 
 h1 {
   font-family: "bright_demoregular";
-  font-size: 10cqw;
+  font-size: 5cqw;
   color: #2927ce;
   text-align: center;
   margin-top: 50px;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  font-family: "Montserrat Alternates", sans-serif;
+  color: #4a4a44;
+  font-weight: bold;
+  padding-bottom: 1em;
 }
 
 p,
@@ -49,14 +57,19 @@ li a {
   color: #54544b;
   text-decoration: none;
 }
+
+p {
+  line-height: 1.5;
+}
 /** menu**/
 
 .navbar {
   min-height: 70px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   padding: 0 24px;
+  gap: 90px;
 }
 
 .nav-menu {
@@ -64,6 +77,7 @@ li a {
   justify-content: space-between;
   align-items: center;
   gap: 90px;
+  margin-top: 20px;
 }
 
 .nav-link {
@@ -93,7 +107,17 @@ header .nav-bar .nav-menu a {
   font-size: 2rem;
 }
 
+.logo {
+  margin-top: 10px;
+}
 @media (max-width: 780px) {
+  .navbar {
+    justify-content: flex-start; /* Align items to the start */
+  }
+
+  .logo {
+    margin-right: auto; /* Move logo to the left */
+  }
   .hamburger {
     display: block;
     z-index: 11;
@@ -141,6 +165,10 @@ header .nav-bar .nav-menu a {
 
   .nav-menu a:hover {
     color: #fffcf2;
+  }
+  header .navbar .logo {
+    max-height: 100px;
+    max-width: 100%;
   }
 }
 .nav-menu a:hover {
