@@ -8,4 +8,17 @@
   .forsidegrafik {
     height: 1000px;
   }
+
+  .timeline_component h3,
+  .timeline_component a {
+    padding: 25px 25px 0;
+  }
+
+  .timeline_component {
+    margin: 0 20px 20px 20px;
+  }
+
+  .background {
+    padding: 1.5em;
+  }
 }

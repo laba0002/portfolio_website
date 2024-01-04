@@ -191,7 +191,7 @@ h1 {
 .timeline {
   margin: 0 auto;
   max-width: 750px;
-  padding: 25px;
+  padding: 10px;
   display: grid;
   grid-template-columns: 1fr 3px 1fr;
   font-family: "Fira Sans", sans-serif;
@@ -199,13 +199,21 @@ h1 {
 }
 
 .timeline_component {
-  margin: 0 20px 20px 20px;
+  margin: 0 10px 10px 10px;
 }
 
-.timeline_component h3 {
+.timeline_component h3,
+.timeline_component a {
   text-align: center;
-  padding: 25px 25px 25px 0;
+  padding: 15px 15px 0;
   font-family: "Montserrat Alternates", sans-serif;
+  text-decoration: none;
+}
+
+.background:hover {
+  background-color: rgba(188, 186, 186, 0.301);
+  /* border-radius: 10px;
+  padding: 1.5em; */
 }
 
 .timeline_bar,
@@ -235,5 +243,5 @@ h1 {
 .background {
   background-color: rgba(255, 246, 246, 0.46);
   border-radius: 10px;
-  padding: 1.5em;
+  padding: 0.2em;
 }
