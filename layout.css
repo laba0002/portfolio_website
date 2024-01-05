@@ -28,4 +28,20 @@
   .background {
     padding: 1.5em;
   }
+
+  /**animation **/
+
+  .grid_2-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 30px;
+  }
+  .grid_mobil {
+    display: grid;
+    gap: 20px;
+  }
+  .middle {
+    grid-template-columns: 2/3;
+  }
 }

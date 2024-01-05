@@ -326,3 +326,12 @@ h1 {
   grid-template-columns: 1fr 1fr;
   gap: 20px;
 }
+
+/* animation */
+
+@media (max-width: 800px) {
+  .grid_mobil {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
