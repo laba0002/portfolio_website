@@ -65,8 +65,13 @@ li a {
   text-decoration: none;
 }
 
+img {
+  margin: 0 10px 10px 10px;
+  max-width: 100%;
+}
 p {
-  line-height: 1.5;
+  line-height: 2;
+  margin: 0 20px 20px 20px;
 }
 /** menu**/
 
