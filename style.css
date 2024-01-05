@@ -37,7 +37,7 @@ body {
 
 h1 {
   font-family: "bright_demoregular";
-  font-size: 5cqw;
+  font-size: 7cqw;
   color: #2927ce;
   text-align: center;
   margin-top: 50px;
@@ -47,8 +47,8 @@ h1 {
 h2 {
   font-family: "Montserrat Alternates", sans-serif;
   color: #4a4a44;
-  font-weight: bolder;
-  padding-bottom: 1em;
+  font-weight: 700;
+  padding: 1em 0 0.5em 0;
 }
 
 h3 {
@@ -290,7 +290,7 @@ h1 {
 /** uxui **/
 
 .ux_container {
-  padding: 100px;
+  padding: 40px;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
@@ -305,18 +305,24 @@ h1 {
   /* scroll-snap-align: start;
   width: 1000px;
   height: 500px; */
-  width: 360px;
-  padding: 0 50px;
+  /* width: 360px; */
+  padding: 0 10px;
+  margin: 0 10px 0 10px;
   display: flex;
-  flex-direction: column;
-  margin: 0 30px 0 30px;
+  flex-direction: row;
+  flex-wrap: nowrap;
 }
 
 .ux_box .text_box {
-  margin: 0 30px 0 30px;
+  margin: 0 10px 0 10px;
   width: 400px;
-  background-color: #e7d8a2;
+  /* background-color: #e7d8a2; */
 }
 .ux_box img {
-  width: 100%;
+  width: 400px;
+}
+.ux_box .grid_1-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
 }
