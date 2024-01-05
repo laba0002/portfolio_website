@@ -44,4 +44,20 @@
   .middle {
     grid-template-columns: 2/3;
   }
+
+  /*videosite**/
+
+  .grid_1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .flex_col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  .flex_col > :last-child {
+    margin-top: auto;
+  }
 }
