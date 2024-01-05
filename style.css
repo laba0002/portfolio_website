@@ -294,7 +294,8 @@ h1 {
 
 /** uxui **/
 
-.ux_container {
+.ux_container,
+.elementer_container {
   padding: 40px;
   margin: 0 auto;
   display: flex;
@@ -306,6 +307,18 @@ h1 {
   overflow-x: scroll;
 }
 
+.element_box {
+  padding: 0 10px;
+  margin: 0 50px 0 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.element_box img {
+  width: 400px;
+  height: auto;
+}
 .ux_box {
   /* scroll-snap-align: start;
   width: 1000px;
