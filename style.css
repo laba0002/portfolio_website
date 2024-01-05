@@ -67,7 +67,7 @@ li a {
 
 img {
   margin: 0 10px 10px 10px;
-  max-width: 100%;
+  /* max-width: 100%; */
 }
 p {
   line-height: 2;
@@ -295,7 +295,8 @@ h1 {
 /** uxui **/
 
 .ux_container,
-.elementer_container {
+.elementer_container,
+.process_container {
   padding: 40px;
   margin: 0 auto;
   display: flex;
@@ -319,7 +320,8 @@ h1 {
   width: 400px;
   height: auto;
 }
-.ux_box {
+.ux_box,
+.process_box {
   /* scroll-snap-align: start;
   width: 1000px;
   height: 500px; */
@@ -336,10 +338,12 @@ h1 {
   width: 400px;
   /* background-color: #e7d8a2; */
 }
-.ux_box img {
+.ux_box img,
+.process_box img {
   width: 400px;
 }
-.ux_box .grid_1-2 {
+.ux_box .grid_1-2,
+.process_box .grid_1-2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
