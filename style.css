@@ -75,12 +75,15 @@ h3 {
   text-align: right;
   text-decoration: none;
 }
-
-.link a {
+.ikke_link {
   opacity: 50%;
 }
-.link a:hover {
+
+span .link a {
   opacity: 100%;
+}
+.link a:hover {
+  opacity: 50%;
 }
 
 p,
