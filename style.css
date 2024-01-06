@@ -58,6 +58,23 @@ h3 {
   padding-bottom: 1em;
 }
 
+span,
+span a {
+  font-family: "Montserrat Alternates", sans-serif;
+  color: #2927ce;
+  font-weight: bold;
+  padding: 1em;
+  text-align: right;
+  text-decoration: none;
+}
+
+span a {
+  opacity: 50%;
+}
+span a:hover {
+  opacity: 100%;
+}
+
 p,
 li a {
   font-family: "Montserrat Alternates", sans-serif;
