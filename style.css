@@ -393,6 +393,10 @@ h1 {
   gap: 20px;
 }
 
+.grid_1-2 {
+  margin-top: 50px;
+}
+
 /* animation */
 
 @media (max-width: 800px) {
