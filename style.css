@@ -416,20 +416,29 @@ h1 {
 
 .programmer li {
   font-family: "Montserrat Alternates", sans-serif;
+  font-size: 3cqw;
+}
+.programmer ul {
+  margin-left: 100px;
 }
 
 #vscode {
-  list-style-image: ;
+  list-style-image: url(billeder/vscode.svg);
+  margin: 10px 20px 10px 10px;
 }
 #illustrator {
-  list-style-image: ;
+  list-style-image: url(billeder/illustrator.svg);
+  margin: 10px 20px 10px 10px;
 }
 #photoshop {
-  list-style-image: ;
+  list-style-image: url(billeder/photoshop.svg);
+  margin: 10px 20px 10px 10px;
 }
 #premierepro {
-  list-style-image: ;
+  list-style-image: url(billeder/premierepro.svg);
+  margin: 10px 20px 10px 10px;
 }
 #figma {
-  list-style-image: ;
+  list-style-image: url(billeder/figma.svg);
+  margin: 10px 20px 10px 10px;
 }
