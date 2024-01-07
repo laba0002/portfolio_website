@@ -414,6 +414,10 @@ h1 {
 
 /* om mig */
 
+.mitbillede {
+  clip-path: circle(50% at 50%);
+}
+
 .programmer li {
   font-family: "Montserrat Alternates", sans-serif;
   font-size: 3cqw;
