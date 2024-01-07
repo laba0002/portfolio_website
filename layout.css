@@ -18,7 +18,7 @@
 
   .timeline_component h3,
   .timeline_component a {
-    padding: 25px 25px 0;
+    padding: 25px 25px 25px;
   }
 
   .timeline_component {
