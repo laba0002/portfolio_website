@@ -238,7 +238,7 @@ header .nav-bar .nav-menu a {
 /*Forside*/
 
 .forsidegrafik {
-  background-image: url(/billeder/forsidegrafik.svg);
+  background-image: url(billeder/forsidegrafik.svg);
   background-size: cover;
   max-height: max-content;
   z-index: -100;
