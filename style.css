@@ -337,6 +337,44 @@ h1 {
   padding: 0.2em;
 }
 
+/** web **/
+
+#blibblob_container {
+  display: block;
+  position: absolute;
+  width: 20%;
+  aspect-ratio: 640/575;
+  top: 100%;
+  left: 30%;
+}
+#web_blibblob {
+  background-image: url(billeder/blibblob.svg);
+  background-size: cover;
+  width: 133.5%;
+  height: 133%;
+  position: relative;
+  grid-column: 1;
+  z-index: -1;
+}
+
+#rund_blob_container {
+  display: block;
+  position: absolute;
+  width: 15%;
+  aspect-ratio: 450/470;
+  top: 201%;
+  left: 76%;
+}
+#web_rund_blob {
+  background-image: url(billeder/rund_blob.svg);
+  background-size: cover;
+  width: 133.5%;
+  height: 133%;
+  position: relative;
+  grid-column: 1;
+  z-index: -1;
+}
+
 /** uxui **/
 
 .ux_container,
