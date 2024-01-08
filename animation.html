@@ -54,10 +54,13 @@
         <div class="grid_1-2 top ">
             <a href="https://labacke.dk/kea/04_animation/website/index.html" target="_blank"><img
                     src="billeder/spil_samlet.webp" alt=""></a>
-            <p>I dette forløb skulle vi lave et spil, med hjælp af CSS-animationer og JavaScript. Hertil gennemgik vi
-                design principper i forhold til game design, samt karakterdesign, hvor vi skulle bruge Illustrator til
+            <p>I dette forløb skulle vi lave et spil, med hjælp af <b>CSS-animationer</b> og <b>JavaScript</b>. Hertil
+                gennemgik vi
+                <b>designprincipper</b> i forhold til <b>gamedesign</b>, samt <b>karakterdesign</b>, hvor vi skulle
+                bruge <b>Illustrator</b> til
                 at lave diverse elementer for at opbygge spillet. Til hjælp med at opbygningen, lærte vi at lave og
-                bruge aktivitetsdiagrammer og State Machine Diagram. </p>
+                bruge <b>aktivitetsdiagrammer</b> og <b>State Machine Diagram</b>.
+            </p>
         </div>
 
         <div class="grid_2-3">
@@ -69,13 +72,18 @@
             <div class="middle">
                 <h3>Spillets skærme</h3>
                 <p>
-                    Scenen hvorpå spillet foregår er bygget op omkring en forgrund, mellemgrund og baggrund. Jeg valgte
-                    at benytte forgrunden, således at spil-elementer som skal bevæge sig på skærmen, ”flyder” op bag ved
+                    Scenen hvorpå spillet foregår er bygget op omkring en <b>forgrund</b>, <b>mellemgrund</b> og
+                    <b>baggrund</b>. Jeg valgte
+                    at benytte forgrunden, således at <b>spil-elementer</b> som skal bevæge sig på skærmen, ”flyder” op
+                    bag ved
                     forgrunden men for foran mellem- og baggrunden. Der skabes dybde og dimension ved hjælp af
-                    atmosfærisk perspektiv, da farverne bliver mørkere for hvert ”snit”. <br>
-                    Jeg har taget brug af natursvarende farver; krabben er rød/orange, vandet er blåt, sandet gult/beige
-                    osv. Min typografi er i høj grad inspireret af min valgte stil, som har et meget simpelt udtryk, ala
-                    flat-design - den tager udgangspunkt i mine elementer og
+                    <b>atmosfærisk perspektiv</b>, da farverne bliver mørkere for hvert ”snit”. <br>
+                    Jeg har taget brug af <b>natursvarende farver</b>; krabben er rød/orange, vandet er blåt, sandet
+                    gult/beige
+                    osv. Min <b>typografi</b> er i høj grad inspireret af min valgte stil, som har et meget simpelt
+                    udtryk,
+                    ala
+                    <b>flat-design</b> - den tager udgangspunkt i mine elementer og
                     karakter, i form af bobler og evt krabbekløer.
                 </p>
             </div>
@@ -120,12 +128,17 @@
         <div class="grid_1-2">
             <div>
                 <h2>Karakter-design</h2>
-                <p> I starten af forløbet lærte vi om karakterdesign, herunder solid-drawing, baby bias, og forskellige
-                    karakter-konventioner. <br>
-                    Min karakter gør brug af bouba-teorien, da den er hovedsageligt lavet af runde og bløde former som
-                    ovaler og cylindere. Dog har dens kløer skarpe kanter, ala kikki-teori, derfor bryder den
-                    konventionen. Derudover har jeg forsøgt på noget asymmetri for at give en ”line of action”. Jeg
-                    benyttede mig af solid-drawing da jeg skitserede den. Karakteren har et snært af baby bias i det den
+                <p> I starten af forløbet lærte vi om karakterdesign, herunder <b>solid-drawing</b>, <b>baby bias</b>,
+                    og
+                    forskellige
+                    <b>karakter-konventioner</b>. <br>
+                    Min karakter gør brug af <b>bouba-teorien</b>, da den er hovedsageligt lavet af runde og bløde
+                    former som
+                    ovaler og cylindere. Dog har dens kløer skarpe kanter, ala <b>kikki-teori</b>, derfor bryder den
+                    konventionen. Derudover har jeg forsøgt på noget asymmetri for at give en <b>”line of action”</b>.
+                    Jeg
+                    benyttede mig af <b>solid-drawing</b> da jeg skitserede den. Karakteren har et snært af <b>baby
+                        bias</b> i det den
                     har store øjne med bredt mellemrum og en lille mund.
                 </p>
             </div>
@@ -135,44 +148,72 @@
             <iframe src="https://labacke.dk/kea/04_animation/prototype.mp4" controls frameborder="0"></iframe>
             <div>
                 <h2>Papir-prototype</h2>
-                <p>I starten af dette forløb skulle vi lave en papir-protoype af vores spil, for at visuelt skitserer
-                    hvordan mekanismerne vil fungere og hvordan hele processen vil forløbe sig. </p>
+                <p>I starten af dette forløb skulle vi lave en <b>papir-protoype</b> af vores spil, for at visuelt
+                    skitserer
+                    hvordan <b>mekanismerne</b> vil fungere og hvordan hele processen vil forløbe sig. </p>
             </div>
         </div>
 
         <h2>Kort gennengang af spillets JavaScript</h2>
         <div class="grid_1-2">
-            <p>For at mindske brug af tegn, laver jeg const som refererer til hhv. HTML-tags, class eller id, ved brug
-                af document.querySelector.
-                Derudover laver jeg variabler ved brug af ”let”, til at holde styr på point og liv i spillet.
-                Jeg har lavet en funktion til at genere tilfældige tal mellem 1 og et angivet maksimum - dette bruges
-                til når spil-elementerne restarter, så de får en tilfældig position og et ”delay”.
-                Når siden er loadet, kalder den funktionen SidenVises - denne funktion skjuler de andre skærme og viser
+            <p>For at mindske brug af tegn, laver jeg <b>const</b> som refererer til hhv. HTML-tags, class eller id, ved
+                brug
+                af <b>document.querySelector</b>.
+                Derudover laver jeg <b>variabler</b> ved brug af <b>”let”</b>, til at holde styr på <b>point</b> og
+                <b>liv</b> i
+                spillet.
+                Jeg har lavet en <b>funktion</b> til at genere <b>tilfældige tal</b> mellem 1 og et <b>angivet
+                    maksimum</b> -
+                dette
+                bruges
+                til når <b>spil-elementerne restarter</b>, så de får en tilfældig <b>position</b> og et
+                <b>”delay”</b>.
+                Når siden er loadet, kalder den funktionen <b>SidenVises</b> - denne funktion skjuler de andre
+                skærme
+                og viser
                 startskærmen.
-                Her kan man kalde på enten funktionen playKnap ved click, som aktiverer startSpil, der initialisere
-                spillet ved at tilføje klasser og event listeners til diverse spilelementer - eller på infoKnap ved
-                click, som kalder på funktionen infoScreen som viser infoskærm, og endnu en playKnap som kalder som har
+                Her kan man kalde på enten funktionen <b>playKnap</b> ved <b>click</b>, som <b>aktiverer
+                    startSpil</b>, der
+                initialisere
+                spillet ved at tilføje klasser og eventlisteners til diverse spilelementer - eller på
+                <b>infoKnap</b>
+                ved
+                <b>click</b>, som kalder på funktionen <b>infoScreen</b> som viser infoskærm, og endnu en
+                playKnap som
+                kalder
+                som har
                 samme funktion som førnævnte.
             </p>
-            <p>Hvert spil-element har hver sin funktion, hhv. clickGoldCoin og clickKoral. Disse elementer har en
-                eventListener, som lytter efter ”mousedown”, således når der klikkes på en guldmønt lyttes efter
-                clickGoldCoin, som udskriver point og afspiller tilfældig ”god” lyd ved brug af ”if else”, og så starter
-                animationen ”glow” ved at tilføje den på firstElementChild, altså sprite. Herefter tilføjes en
-                ”animationend” eventListener, som lytter efter når ”glow”-animationen slutter, og startert coinReset -
-                her bruges førnævnte funktion som genererer en tilfældig position og ”delay”, og derefter
-                ”flyd”-animationen som er en keyframe animation med en translate fra 0% 0% til 0% -1700%. Da der er sat
-                to værdier, gør så den bevæger sig vertikalt - derudover går den også fra rotation 0 til 1, så elementet
-                roterer i det omfang, animation foregår, hvilket i dette tilfælde er 4 sekunder.</p>
+            <p>Hvert spil-element har hver sin funktion, hhv. <b>clickGoldCoin</b> og <b>clickKoral</b>. Disse elementer
+                har en
+                eventListener, som lytter efter <b>”mousedown”</b>, således når der klikkes på en guldmønt lyttes efter
+                <b>clickGoldCoin</b>, som udskriver <b>point</b> og afspiller tilfældig <b>”god” lyd</b> ved brug af
+                <b>”if
+                    else”</b>, og så starter
+                animationen ”glow” ved at tilføje den på <b>firstElementChild</b>, altså sprite. Herefter tilføjes en
+                <b>”animationend” eventListener</b>, som lytter efter når ”glow”-animationen slutter, og startert
+                <b>coinReset</b> -
+                her bruges førnævnte funktion som genererer en tilfældig <b>position</b> og <b>”delay”</b>, og derefter
+                ”flyd”-animationen som er en <b>keyframe animation</b> med en <b>translate</b> fra 0% 0% til 0% -1700%.
+                Da der er sat
+                <b>to værdier</b>, gør så den bevæger sig <b>vertikalt</b> - derudover går den også fra <b>rotation</b>
+                0 til
+                1, så elementet
+                roterer i det omfang, animation foregår, hvilket i dette tilfælde er <b>4 sekunder</b>.
+            </p>
         </div>
 
         <div class="grid_1-2">
             <img src="billeder/aktivitetsdiagram.webp" alt="aktivitetsdiagram spil">
             <div>
                 <h2>Aktivitetsdiagram</h2>
-                <p>I dette forløb, lærte jeg om aktivitetsdiagram, som er et væktøj til at illustrere en proces inden
+                <p>I dette forløb, lærte jeg om <b>aktivitetsdiagram</b>, som er et væktøj til at <b>illustrere en
+                        proces</b> inden
                     for et
-                    bestemt "system". Til denne opgave, brugte jeg det til at vise hvordan spillet forløb sig, med de
-                    forskellige forgreninger og udkom som der kan forekomme, alt efter brugerens interaktion med det.
+                    <b>bestemt "system"</b>. Til denne opgave, brugte jeg det til at vise hvordan spillet forløb sig,
+                    med de
+                    forskellige <b>forgreninger</b> og <b>udkom</b> som der kan forekomme, alt efter <b>brugerens
+                        interaktion</b> med det.
                 </p>
             </div>
         </div>
@@ -180,10 +221,12 @@
         <div class="grid_1-2">
             <div>
                 <h2>State Machine Diagram</h2>
-                <p>Mit state Machine Diagram skaber et overblik over spillets forløb, ved at tydeliggøre spillets
-                    funktioner og hvad de gør. Idet man navngiver funktinerne som man også ville i JavaScript, fungerer
+                <p>Mit <b>State Machine Diagram</b> skaber et overblik over spillets forløb, ved at tydeliggøre
+                    <b>spillets
+                        funktioner</b> og hvad de gør. Idet man navngiver funktionerne som man også ville i
+                    <b>JavaScript</b>, fungerer
                     det
-                    såvel som en personlig guide til det tilhørende JavaScript.
+                    såvel som en personlig <b>guide</b> til det tilhørende JavaScript.
                 </p>
             </div>
             <img src="billeder/smd.webp" alt="state machine diagram">
