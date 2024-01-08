@@ -342,10 +342,12 @@ h1 {
 #web_blibblob_container {
   display: block;
   position: absolute;
-  width: 20%;
+  width: 15%;
   aspect-ratio: 640/575;
-  top: 100%;
-  left: 30%;
+  top: 105%;
+  left: 10%;
+  transform: rotate(76deg);
+  z-index: -1;
 }
 #blibblob {
   background-image: url(billeder/blibblob.svg);
@@ -357,22 +359,22 @@ h1 {
   z-index: -1;
 }
 
-#rund_blob_container {
+#web_mindre_rund_blob_container {
   display: block;
   position: absolute;
   width: 15%;
-  aspect-ratio: 450/470;
+  aspect-ratio: 315/295;
   top: 201%;
   left: 76%;
+  z-index: -1;
 }
-#web_rund_blob {
-  background-image: url(billeder/rund_blob.svg);
+#mindre_rund_blob {
+  background-image: url(billeder/mindre_rund_blob.svg);
   background-size: cover;
   width: 133.5%;
   height: 133%;
   position: relative;
   grid-column: 1;
-  z-index: -1;
 }
 
 /** uxui **/
@@ -384,25 +386,28 @@ h1 {
   aspect-ratio: 640/575;
   top: 74%;
   left: 71%;
+  transform: rotate(1deg);
+  z-index: -1;
 }
 
-#kantet_blob_container {
+#uxui_rund_blob_container {
   display: block;
   position: absolute;
-  width: 23%;
-  aspect-ratio: 596/610;
-  top: 172%;
-  left: 5%;
+  width: 17%;
+  aspect-ratio: 450/470;
+  top: 186%;
+  left: 1%;
+  transform: rotate(-101deg);
+  z-index: -1;
 }
 
-#uxui_kantet_blob {
-  background-image: url(billeder/kantet_blob.svg);
+#rund_blob {
+  background-image: url(billeder/rund_blob.svg);
   background-size: cover;
   width: 133.5%;
   height: 133%;
   position: relative;
   grid-column: 1;
-  z-index: -1;
 }
 
 .ux_container,
@@ -476,6 +481,44 @@ h1 {
 }
 
 /* animation */
+#ani_mindre_rund_blob_container {
+  display: block;
+  position: absolute;
+  width: 18%;
+  aspect-ratio: 315/295;
+  top: 426%;
+  left: 76%;
+  z-index: -1;
+}
+
+#ani_kantet_blob_container {
+  display: block;
+  position: absolute;
+  width: 27%;
+  aspect-ratio: 596/610;
+  top: 85%;
+  left: 55%;
+  transform: rotate(-101deg);
+  z-index: -1;
+}
+#kantet_blob {
+  background-image: url(billeder/kantet_blob.svg);
+  background-size: cover;
+  width: 133.5%;
+  height: 133%;
+  position: relative;
+  grid-column: 1;
+}
+#ani_blibblob_container {
+  display: block;
+  position: absolute;
+  width: 25%;
+  aspect-ratio: 640/575;
+  top: 310%;
+  left: 8%;
+  transform: rotate(71deg);
+  z-index: -1;
+}
 
 @media (max-width: 800px) {
   .grid_mobil {
@@ -526,4 +569,28 @@ h1 {
 #figma {
   list-style-image: url(billeder/figma.svg);
   margin: 10px 20px 10px 10px;
+}
+
+/** videosite**/
+
+#video_blibblob_container {
+  display: block;
+  position: absolute;
+  width: 22%;
+  aspect-ratio: 640/575;
+  top: 246%;
+  left: 39%;
+  transform: rotate(11deg);
+  z-index: -1;
+}
+
+#video_rund_blob_container {
+  display: block;
+  position: absolute;
+  width: 24%;
+  aspect-ratio: 450/470;
+  top: 58%;
+  left: -4%;
+  transform: rotate(-39deg);
+  z-index: -1;
 }
