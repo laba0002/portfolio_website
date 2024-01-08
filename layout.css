@@ -60,4 +60,162 @@
   .flex_col > :last-child {
     margin-top: auto;
   }
+
+  /** videosite**/
+
+  #video_blibblob_container {
+    display: block;
+    position: absolute;
+    width: 22%;
+    aspect-ratio: 640/575;
+    top: 246%;
+    left: 39%;
+    transform: rotate(11deg);
+    z-index: -1;
+  }
+
+  #video_rund_blob_container {
+    display: block;
+    position: absolute;
+    width: 24%;
+    aspect-ratio: 450/470;
+    top: 58%;
+    left: -4%;
+    transform: rotate(-39deg);
+    z-index: -1;
+  }
+  /** virksomhed **/
+
+  #virk_mindre_rund_blob_container {
+    display: block;
+    position: absolute;
+    width: 24%;
+    aspect-ratio: 315/295;
+    top: 53%;
+    left: 76%;
+    z-index: -1;
+  }
+
+  #virk_kantet_blob_container {
+    display: block;
+    position: absolute;
+    width: 23%;
+    aspect-ratio: 596/610;
+    top: 254%;
+    left: 16%;
+    transform: rotate(-26deg);
+    z-index: -1;
+  }
+  /*animation*/
+
+  #ani_mindre_rund_blob_container {
+    display: block;
+    position: absolute;
+    width: 18%;
+    aspect-ratio: 315/295;
+    top: 426%;
+    left: 76%;
+    z-index: -1;
+  }
+
+  #ani_kantet_blob_container {
+    display: block;
+    position: absolute;
+    width: 27%;
+    aspect-ratio: 596/610;
+    top: 85%;
+    left: 55%;
+    transform: rotate(-101deg);
+    z-index: -1;
+  }
+  #kantet_blob {
+    background-image: url(billeder/kantet_blob.svg);
+    background-size: cover;
+    width: 133.5%;
+    height: 133%;
+    position: relative;
+    grid-column: 1;
+  }
+  #ani_blibblob_container {
+    display: block;
+    position: absolute;
+    width: 25%;
+    aspect-ratio: 640/575;
+    top: 310%;
+    left: 8%;
+    transform: rotate(71deg);
+    z-index: -1;
+  }
+  /** web **/
+
+  #web_blibblob_container {
+    display: block;
+    position: absolute;
+    width: 15%;
+    aspect-ratio: 640/575;
+    top: 105%;
+    left: 10%;
+    transform: rotate(76deg);
+    z-index: -1;
+  }
+  #blibblob {
+    background-image: url(billeder/blibblob.svg);
+    background-size: cover;
+    width: 133.5%;
+    height: 133%;
+    position: relative;
+    grid-column: 1;
+    z-index: -1;
+  }
+
+  #web_mindre_rund_blob_container {
+    display: block;
+    position: absolute;
+    width: 15%;
+    aspect-ratio: 315/295;
+    top: 201%;
+    left: 76%;
+    z-index: -1;
+  }
+  #mindre_rund_blob {
+    background-image: url(billeder/mindre_rund_blob.svg);
+    background-size: cover;
+    width: 133.5%;
+    height: 133%;
+    position: relative;
+    grid-column: 1;
+  }
+
+  /** uxui **/
+
+  #uxui_blibblob_container {
+    display: block;
+    position: absolute;
+    width: 20%;
+    aspect-ratio: 640/575;
+    top: 74%;
+    left: 71%;
+    transform: rotate(1deg);
+    z-index: -1;
+  }
+
+  #uxui_rund_blob_container {
+    display: block;
+    position: absolute;
+    width: 17%;
+    aspect-ratio: 450/470;
+    top: 186%;
+    left: 1%;
+    transform: rotate(-101deg);
+    z-index: -1;
+  }
+
+  #rund_blob {
+    background-image: url(billeder/rund_blob.svg);
+    background-size: cover;
+    width: 133.5%;
+    height: 133%;
+    position: relative;
+    grid-column: 1;
+  }
 }
