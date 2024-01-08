@@ -186,6 +186,29 @@
     grid-column: 1;
   }
 
+  /** mig*/
+
+  #mig_blibblob_container {
+    display: block;
+    position: absolute;
+    width: 34%;
+    aspect-ratio: 640/575;
+    top: 169%;
+    left: 21%;
+    transform: rotate(78deg);
+    z-index: -1;
+  }
+  #mig_kantet_blob_container {
+    display: block;
+    position: absolute;
+    width: 24%;
+    aspect-ratio: 596/610;
+    top: 92%;
+    left: 63%;
+    transform: rotate(-55deg);
+    z-index: -1;
+  }
+
   /** uxui **/
 
   #uxui_blibblob_container {
