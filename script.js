@@ -12,11 +12,3 @@ document.querySelectorAll(".nav-link").forEach((n) =>
     navmenu.classList.remove("active");
   })
 );
-
-//forside
-
-window.addEventListener("load", sidenVises);
-
-function sidenVises() {
-  document.querySelectorAll(".timeline").classList.add("fade_in");
-}
