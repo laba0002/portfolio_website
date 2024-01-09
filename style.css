@@ -407,6 +407,10 @@ header .nav-bar .nav-menu a {
   video {
     margin: 20px 20px 20px 10px;
   }
+
+  .forside_overskrift {
+    margin-left: 30px;
+  }
 }
 
 /* om mig */
