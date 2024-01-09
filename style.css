@@ -41,7 +41,7 @@ b {
   padding-left: 20px;
 }
 
-iframe {
+video {
   width: 100%;
   height: auto;
   aspect-ratio: 16 / 9;
@@ -430,6 +430,14 @@ h1 {
 
   .display {
     display: none;
+  }
+
+  main:not(.timeline) {
+    margin: 20px 15px 5px 0;
+  }
+
+  video {
+    margin: 20px 20px 20px 10px;
   }
 }
 
