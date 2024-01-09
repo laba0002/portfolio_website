@@ -36,10 +36,10 @@ b {
   font-weight: bolder;
 }
 
-.top p,
+/* .top p,
 .top h2 {
   padding-left: 20px;
-}
+} */
 
 video {
   width: 100%;

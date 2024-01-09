@@ -51,15 +51,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
-  .flex_col {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 20px;
-  }
-  .flex_col > :last-child {
-    margin-top: auto;
-  }
 
   /** videosite**/
 
@@ -240,5 +231,12 @@
     height: 133%;
     position: relative;
     grid-column: 1;
+  }
+  .top p,
+  .top h2 {
+    padding-left: 20px;
+  }
+  .top h2 {
+    margin-left: 20px;
   }
 }
