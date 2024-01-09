@@ -62,17 +62,18 @@ h1 {
   margin-bottom: 0.5em;
 }
 
-h2 {
+h2,
+h3 {
   font-family: "Montserrat Alternates", sans-serif;
   color: #4a4a44;
+}
+h2 {
   font-weight: 700;
   padding: 1em 0 0.5em 0.8em;
   margin: 17px 0 10px 0;
 }
 
 h3 {
-  font-family: "Montserrat Alternates", sans-serif;
-  color: #4a4a44;
   font-weight: bold;
   padding: 1em 0 0.5em 0.8em;
 }
@@ -249,39 +250,6 @@ header .nav-bar .nav-menu a {
   z-index: -100;
   background-repeat: no-repeat;
 }
-
-/* #forside_grafik_container {
-  position: absolute;
-  width: 100%;
-  aspect-ratio: 1100/950;
-  cursor: pointer;
-}
-
-#forside_grafik_container {
-  width: 100%;
-  height: 100%;
-  background-image: url(/billeder/forsidegrafik.svg);
-  background-size: cover;
-  z-index: -100;
-  top: -11%;
-  left: 5%;
-} */
-
-/* .container img {
-  aspect-ratio: 1100/950;
-  width: 1280px;
-  height: 941px;
-}
-
-.container {
-  display: grid;
-  place-items: center;
-}
-
-img,
-h1 {
-  grid-area: 1/1;
-} */
 
 /* timeline */
 .timeline {
