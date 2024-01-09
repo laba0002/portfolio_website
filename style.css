@@ -100,7 +100,7 @@ span .link a {
 
 p,
 li a,
-#anker a {
+.pop a {
   font-family: "Montserrat Alternates", sans-serif;
   color: #54544b;
   text-decoration: none;
@@ -234,7 +234,7 @@ header .nav-bar .nav-menu a {
 }
 .nav-menu a:hover,
 .timeline .timeline_component a h3:hover,
-#anker p a:hover {
+.pop p a:hover {
   color: #fffcf2;
 }
 .nav-menu {
